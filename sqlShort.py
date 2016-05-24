@@ -178,7 +178,7 @@ class sqlShort:
 		"""Converts a Python variable into SQL string to insert it in a query."""
 		if v is None:
 			return "NULL"
-		elif type(v)==type(str()) or type(v)==type(unicode):
+		elif type(v)==type(str()) or type(v)==type(unicode()):
 			if self.dbtype=="mysql":
 				return "\""+self.db.escape_string(v)+"\""
 			else:
