@@ -54,4 +54,3 @@ to guess the type from the first element of the list (for efficiency). With MySQ
 
 This module is kind of stupidly simple and is definitely intended for specific uses and SQL-syntax lovers.
 If you want a more thought-through thing, you should have a look at http://www.sqlalchemy.org/.
-
